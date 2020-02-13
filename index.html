@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>画只皮卡丘吧！</title>
+    <title>画只皮卡丘吧</title>
+    <link rel="stylesheet" href="./prism/prism.css">
     <style id="styleTag"></style>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" href="default.css">
 </head>
+
 <body>
     <div class="code-wrapper">
-        <pre class="code"></pre>
+        <pre id="code" class="code"></pre>
+        <div class="btDiv">
+            <button data-speed='slow'>眼睛疼，慢点整</button>
+            <button data-speed='default' class="active">随缘</buttonclass="active">
+            <button data-speed='fast'>给爷整快点！</button>
+        </div>   
     </div>
     <div class="preview-wrapper">
-        <pre class="preview"></pre>
-    </div>
-    <div class="wrapper">
-        <div class="nose"></div>
-        <div class="left eye"></div>
-        <div class="right eye"></div>
-        <div class="face left"></div>
-        <div class="face right"></div>
-        <div class="upperlip left"></div>
-        <div class="upperlip right"></div>
-        <div class="lowerlip-wapper">
-            <div class="lowerlip"></div>
+        <div class="preview">
+            <div class="wrapper">
+                <div class="lowerlip-wapper">
+                    <div class="lowerlip"></div>
+                </div>
+                <div class="nose"></div>
+                <div class="left eye"></div>
+                <div class="right eye"></div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+                <div class="upperlip left"></div>
+                <div class="upperlip right"></div>
+                
+            </div>
         </div>
-        
     </div>
+    <script src="./prism/prism.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

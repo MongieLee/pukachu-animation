@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fee433;
+}
+
+.wrapper{
+    width: 100%;
+    height: 164px;
+    position: relative;
+}
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+.code-wrapper{
+    border: 1px solid red;
+    flex: 1;
+    height: 50%;
+    position: relative;
+}
+
+.lowerlip-wapper{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 110px;
+    width: 300px;
+    transform:translateX(-50%);
+    overflow: hidden;
+}
+
+.preview-wrapper{
+    height: 50%;
+    flex: 1;
+}
+
+.code{
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.btDiv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btDiv > button{
+    margin: 10px 15px 5px 0 ;
+    border: none;
+    background-color:rgb(96, 220, 212);
+    border-radius: 5px;
+    color: white;
+}
+
+.btDiv > button.active{
+    background: rgb(196, 56, 56);
+    /* box-shadow: 10px 10px 5px #888888; */
+    box-shadow: -2px 2px 5px black;
+}
+
+.btDiv > button:focus{
+    outline: none;
+}
+
+.btDiv > button:hover{
+    cursor: pointer;
+}
