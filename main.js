@@ -1,4 +1,9 @@
-var text = `/*先整个鼻子*/
+var text = `/*买个皮肤先*/
+.preview{
+    background-color: #fee433;
+}
+
+/*再整个鼻子*/
 .nose{
     width: 0px;
     height: 0px;
@@ -41,7 +46,7 @@ var text = `/*先整个鼻子*/
     margin-right: 90px;
 }
 
-/*整右眼*/
+/*整左眼*/
 .eye.right{
     left: 50%;
     margin-left: 90px;
@@ -58,13 +63,13 @@ var text = `/*先整个鼻子*/
     top: 85px;
 }
 
-/*整腮红*/
+/*左边的*/
 .face.left{
     left: 50%;
     margin-left: 100px;
 }
 
-/*整腮红*/
+/*右边的*/
 .face.right{
     right: 50%;
     margin-right: 100px;
@@ -86,7 +91,7 @@ var text = `/*先整个鼻子*/
 
 }
 
-/*画右边胡子*/
+/*整右边胡子*/
 .upperlip.right{
     height: 25px;
     width: 80px;
