@@ -155,7 +155,7 @@ function writeCode(prefix,code,fn){
     }, time)
 }
 
-let btDiv = document.querySelectorAll('.btDiv button')
+var btDiv = document.querySelectorAll('.btDiv button')
 for(let i=0;i<btDiv.length;i++){
     btDiv[i].onclick = function(){
         this.classList.add('active')
